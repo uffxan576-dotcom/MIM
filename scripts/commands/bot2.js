@@ -1,6 +1,6 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "Ayra",
+  name: "Bot",
   version: "0.0.3",
   permission: 0,
   prefix: false,
@@ -148,7 +148,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("সর এখান থেকে লাইকার আবাল..!🐸🤣👍⛏️", threadID);
    };
   
-   if ((event.body.toLowerCase() == "নুসরাত") || (event.body.toLowerCase() == "Nusrat")) {
+   if ((event.body.toLowerCase() == "Priya") || (event.body.toLowerCase() == "প্রিয়া")) {
      return api.sendMessage("বাড়িতে খাই ঝাটার বাড়ি, ফেসবুকে সে অ্যাটিটিউড নারী,😒🤣", threadID);
    };
   
@@ -207,7 +207,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("সরি বস মাফ করে দেন আর এমন ভুল হবে না🥺🙏", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Payel") || (event.body.toLowerCase() == "payel")) {
+   if ((event.body.toLowerCase() == "priya") || (event.body.toLowerCase() == "PRIYA")) {
      return api.sendMessage("বাড়িতে খাই ঝাটার বাড়ি, ফেসবুকে সে অ্যাটিটিউড নারী,😒🤣", threadID);
    };
 
