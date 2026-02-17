@@ -23,8 +23,6 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
   var hi = ["༏༏🌺 হাই বাবুরা 𝐑𝐀𝐍𝐃𝐎𝐌 ভিডিও দেখবা তাই না এই নাও বস 🌺༏༏                        ─꯭─⃝͎̽𓆩𝐑𝐉 𝐅𝐀𝐑𝐇𝐀𝐍‣᭄𓆪                                                       =~এর ভয়েস ভিডিও~=                                                                                                         •──༏༏🌺𝐑𝐀𝐍𝐃𝐎𝐌 𝐕𝐈𝐃𝐄𝐎🌺༏༏──•"];
   var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
-                "https://i.imgur.com/LLucP15.mp4",
-		"https://i.imgur.com/DEBRSER.mp4",
 		"https://i.imgur.com/8jJJcfA.mp4",
                 "https://i.imgur.com/hc8Ed6F.mp4",
                 "https://i.imgur.com/9OlKrSQ.mp4",
